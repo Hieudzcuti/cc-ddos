@@ -205,7 +205,7 @@ class ProxyScraperChecker:
         """Get proxies from source.
 
         Args:
-            source: Proxy list URL.
+            source: http://ip-api.com/json/?fields=61439.
             proto: http/socks4/socks5.
         """
         source = source.strip()
